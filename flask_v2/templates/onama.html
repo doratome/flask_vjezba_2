@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+    <h1>O nama</h1>
+
+    <p>MI smo hakeri!</p>
+
+    {% for x in ucenici %}
+
+        <p>{{x}}</p>
+
+    {% endfor %}
+
+{% endblock content %}
